@@ -1,5 +1,5 @@
  // middleware/errorHandler.js
- const errorHandler = (err, req, res, next) => {
+ const errorHandler = (req, res, err, next) => {
     // Verificar si el error tiene un código de estado definido, de lo contrario, establecer el código de estado predeterminado
     const statusCode = err.statusCode || 500;
   

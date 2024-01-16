@@ -7,6 +7,7 @@
     "start": "node src/app.js",
     "test": "jest"
   },
+  "transformIgnorePatterns": [],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,7 +19,7 @@
     "mongoose": "^7.3.2"
   },
   "devDependencies": {
-    "jest": "^29.6.1",
+    "jest": "^29.7.0",
     "supertest": "^6.3.3"
   }
 }
